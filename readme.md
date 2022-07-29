@@ -2,13 +2,13 @@
 
 ## Web Design Landing Page
 
-### 🎧 A Landing Page of Web Design Agency.🎧
+### 🖥️ A Landing Page of Web Design Agency.📱
 
 ![Badge](https://img.shields.io/badge/Manas--Ranjan--Murmu-Project--7-blue) ![Badge](https://img.shields.io/badge/LCO-Full%20Stack%20Javascript%20Bootcamp-orange) ![](https://img.shields.io/badge/HTML-CSS-green)
 
 #### Built Using HTML & CSS (Desktop view Only 💻)
 
-#### Time Taken to finish the Project - 4 hours ⌛ (approx)
+#### Time Taken to finish the Project - 3 hours ⌛ (approx)
 
 ---
 
