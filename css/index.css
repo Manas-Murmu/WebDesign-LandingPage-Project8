@@ -1,0 +1,155 @@
+/* * {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../images/backcover.svg);
+  background-repeat: no-repeat;
+  background-position: 380px -500px;
+  background-position: bottom right;
+}
+.main-div {
+  height: 100vh;
+  margin: 2% 5%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-items {
+  display: flex;
+  gap: 50px;
+  color: #3e4794;
+}
+
+button {
+  color: white;
+  background-image: linear-gradient(90deg, #807eff, #f58aff);
+  padding: 10px 20px;
+  background-size: cover;
+  border-radius: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  border: none;
+}
+.intro-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+.left-section {
+  margin-top: 50px;
+}
+h1 {
+  font-size: 90px;
+  color: #4c4cf1;
+}
+h4 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #2b3164;
+}
+.learn-more-btn {
+  font-size: 20px;
+  padding: 10px 50px;
+  margin-top: 20px;
+}
+.imgs-div {
+  position: absolute;
+}
+.vector-img {
+  position: absolute;
+  top: 35rem;
+}
+.vector-dot {
+  position: absolute;
+  top: 35rem;
+  left: 50px;
+}
+
+img[alt="intro-img"] {
+  margin-top: 20px;
+  width: 100%;
+}
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;900&family=Orbitron:wght@800&family=Oswald:wght@200;500&family=PT+Sans:wght@400;700&family=Poppins:ital,wght@0,400;0,700;0,800;1,600&family=Roboto:wght@300;400;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/backcover.svg);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: 400px;
+}
+.main-div {
+  height: 100vh;
+  margin: 2% 5%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-items {
+  display: flex;
+  gap: 50px;
+  color: #3e4794;
+}
+
+button {
+  color: white;
+  background-image: linear-gradient(90deg, #807eff, #f58aff);
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 900;
+  border: none;
+}
+.intro-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.left-section {
+  margin-top: 80px;
+}
+h1 {
+  font-size: 70px;
+  color: #3e4794;
+}
+h4 {
+  font-weight: normal;
+  line-height: 2;
+  font-size: 16px;
+}
+.learn-more-btn {
+  font-size: 20px;
+  padding: 10px 50px;
+  margin-top: 30px;
+}
+.imgs-div {
+  position: relative;
+}
+.vector-img {
+  position: absolute;
+  top: 30rem;
+}
+.vector-dot {
+  position: absolute;
+  top: 30rem;
+  left: 50px;
+}
+
+img[alt="intro-img"] {
+  /* width: 100%; */
+  width: 700px;
+}
