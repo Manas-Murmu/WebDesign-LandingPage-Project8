@@ -153,3 +153,38 @@ img[alt="intro-img"] {
   /* width: 100%; */
   width: 700px;
 }
+
+/* ------------------------------------------------------- */
+
+@media (max-width: 768px) {
+  body {
+    background: url(../images/backcover.svg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+  }
+  .nav-items {
+    display: none;
+  }
+  .intro-section {
+    grid-template-columns: 1fr;
+  }
+  .left-section {
+    order: 2;
+  }
+  img[alt="intro-img"] {
+    margin-top: 50px;
+    width: 100%;
+  }
+  img[alt="vector-img"] {
+    margin-top: -150px;
+  }
+  img[alt="vector-dot"] {
+    margin-top: -150px;
+  }
+  .left-section {
+    margin-top: 50px;
+  }
+  .left-section {
+    padding-bottom: 30px;
+  }
+}
